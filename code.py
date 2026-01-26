@@ -4,4 +4,4 @@ import matplotlib.pyplot as plt
 x = np.linspace(0, 1, 200)
 y = x**2
 plt.plot(x, y)
-plt.show()
+plt.savefig("test_image.png")
