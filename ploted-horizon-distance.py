@@ -9,7 +9,7 @@ h = np.linspace(0, 10000, 10000)
 f = R * np.arccos(R / (R + h))
 
 plt.figure(figsize=(20, 10))
-plt.plot(h, f, label=r"$f(h) = R \arccos\left(\frac{R}{R+h}\right)$")
+plt.loglog(h, f, label=r"$f(h) = R \arccos\left(\frac{R}{R+h}\right)$")
 
 plt.xlabel("h")
 plt.ylabel("f(h)")
